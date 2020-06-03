@@ -2,7 +2,9 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import Drift from "react-driftjs";
+import loadable from '@loadable/component'
+
+const Drift = loadable(() => import('react-driftjs'))
 
 const name = 'Lucas Said'
 export const siteTitle = 'Next.js Sample Website'
