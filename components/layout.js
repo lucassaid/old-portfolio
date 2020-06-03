@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Drift from "react-driftjs";
 
 const name = 'Lucas Said'
 export const siteTitle = 'Next.js Sample Website'
@@ -21,7 +22,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <script type="text/javascript" src="/js/drift.js" ></script>
+
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -60,6 +61,11 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      
+      <Drift
+        appId="dibfryaiextr"
+      />
     </div>
+
   )
 }

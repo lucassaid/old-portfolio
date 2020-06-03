@@ -1,4 +1,5 @@
 "use strict";
+
 !function() {
   var t = window.driftt = window.drift = window.driftt || [];
   if (!t.init) {
