@@ -4,7 +4,10 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
-const Drift = dynamic(() => import('react-driftjs'))
+const Drift = dynamic(
+  () => import('react-driftjs'), 
+  { ssr: false }
+)
 
 const name = 'Lucas Said'
 export const siteTitle = 'Next.js Sample Website'
