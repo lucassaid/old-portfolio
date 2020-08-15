@@ -1,0 +1,14 @@
+[
+  {
+    "id": "oknube",
+    "name": "OkNube",
+    "image": "/images/logos/oknube.svg",
+    "link": "https://oksanjuan.com.ar/"
+  },
+  {
+    "id": "flashMeet",
+    "name": "Flash Meet",
+    "image": "/images/logos/flash-meet.svg",
+    "link": "https://flash-meet.com"
+  }
+]

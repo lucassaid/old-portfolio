@@ -1,0 +1,14 @@
+
+
+.select {
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.option {
+  padding: 50px;
+}

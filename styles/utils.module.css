@@ -16,14 +16,13 @@
 
 .headingLg {
   font-size: 1.5rem;
-  line-height: 1.4;
+  line-height: 3;
   margin: 1rem 0;
 }
 
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
-  background: var(--primary-color);
 }
 
 .borderCircle {
@@ -49,5 +48,103 @@
 }
 
 .lightText {
-  color: #999;
+  color: var(--secondary-text-color);
+}
+
+.caption {
+  color: var(--secondary-text-color);
+  font-size: 1.1rem;
+}
+
+.toolIcon {
+  height: 1.3em;
+  position: relative;
+  bottom: 3px;
+}
+
+.projectIcon {
+  height: 3em;
+}
+
+.textInherit {
+  color: inherit;
+}
+
+.textPrimary {
+  color: var(--primary-color);
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.dF {
+  display: flex;
+}
+
+.aICenter {
+  align-items: center;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.borderBox {
+  box-sizing: border-box;
+}
+
+.jCCenter {
+  justify-content: center;
+}
+
+.jCBetween {
+  justify-content: space-between;
+}
+
+.jCEnd {
+  justify-content: flex-end;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 2rem;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.rightSeparator::after {
+  content: '|';
+  margin: 0 15px;
+}
+
+.col6 {
+  width: 50%;
+}
+
+@media(max-width: 767px) {
+  .col6 {
+    width: 100%;
+  }
+}
+
+.p03 {
+  padding: 0 2rem 0 0;
 }

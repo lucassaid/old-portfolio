@@ -1,0 +1,32 @@
+[
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "icon": "/images/logos/firebase.svg",
+    "link": "https://firebase.google.com"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "icon": "/images/logos/nodejs.svg",
+    "link": "https://nodejs.org"
+  },
+  {
+    "id": "litElement",
+    "name": "Lit Element",
+    "icon": "/images/logos/lit-element.svg",
+    "link": "https://lit-element.polymer-project.org/"
+  },
+  {
+    "id": "redux",
+    "name": "Redux",
+    "icon": "/images/logos/redux.svg",
+    "link": "https://redux.js.org"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "icon": "/images/logos/react.svg",
+    "link": "https://es.reactjs.org/"
+  }
+]

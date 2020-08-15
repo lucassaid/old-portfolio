@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" data-name="Capa 1" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>logo-footer</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style>.cls-1{fill:#36a9e1;}.cls-2{fill:#f9b233;}</style>
+  <clipPath id="clipPath47">
+   <use xlink:href="#g43"/>
+  </clipPath>
+ </defs>
+ <title>logo-footer</title>
+ <g transform="matrix(.61114 0 0 .61253 -46.477 -19.031)" clip-path="url(#clipPath47)">
+  <g id="g43">
+   <path class="cls-1" d="m323 197.23c-5.36-70.6 47.45-132.62 118.13-138.45 3.63-0.3 7.23-0.44 10.83-0.44a129.11 129.11 0 0 1 128.39 117.66l10.47-0.86a139.62 139.62 0 0 0-278.3 22.95z"/>
+   <polygon class="cls-2" points="844.7 680.9 813.42 404.27 699.41 510.02"/>
+   <polygon class="cls-2" points="810.88 381.84 788.9 187.48 630.63 200.53 630.63 549.43 674.52 507.95"/>
+   <path class="cls-2" d="m685.58 522.46-0.69 0.7-54.26 46.66v57.72c61.69 16.89 94 55.11 105 98.41 84.08-13.41 118.63 39.77 123.66 84.26l-10.91-96.47z"/>
+   <path class="cls-2" d="m130.8 241.75 16.8 596.34c11.77-62.13 87.61-88.36 125.81-80.52 3-17.61 8.94-30.81 16.32-40.61a151.37 151.37 0 0 1-16.34-8.88q-37.5-23.51-58.24-65.85t-21.08-95.23v-16.58q0-53.58 20.56-96.27t58.07-66.54q37.5-23.85 84.86-23.85 47 0 84.34 23.16t58.24 65.67q20.91 42.53 21.26 95.75v16.59q0 42.44-12.65 77.8a232.56 232.56 0 0 1 46.16-4.41 310.35 310.35 0 0 1 57.09 4.92v-421.17z"/>
+   <path class="cls-2" d="m432.39 384.38q-33-21.94-74.83-21.95-63.94 0-104.39 48.73t-40.44 122.71v11.06q0 46.67 18.49 85.55t51.51 60.66a128.23 128.23 0 0 0 21.75 11.56 59.53 59.53 0 0 1 20.13-8.94c23.7-6.13 54.69-2.17 72.74 14l1.41-0.42c3-8.28 22.78-56.47 86.35-78.3q17.58-38 17.62-88v-10.62q0-46-18.66-85t-51.68-61.04z"/>
+  </g>
+ </g>
+</svg>
