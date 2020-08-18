@@ -9,7 +9,7 @@ body {
   --primary-color: #F5674B;
   --primary-text-color: #333;
   --secondary-text-color: #999;
-
+  overflow-x: hidden;
   color: var(--primary-text-color);
   /* background-color:; */
 }

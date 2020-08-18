@@ -5,6 +5,8 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import LocaleSwitcher from './localeSwitcher'
 import useTranslation from '../hooks/useTranslation'
+import Footer from './footer'
+import ProfileImage from './profileImage'
 
 const Drift = dynamic(
   () => import('react-driftjs'), 
@@ -20,82 +22,78 @@ export const siteTitle = 'Next.js Sample Website'
 export default function Layout({ children, page }) {
   const { locale, t } = useTranslation()
 
+  const ContactLink = ({arrow}) => (
+    <Link href="/[lang]/contact" as={`/${locale}/contact`}>
+      <a
+        active={(page == 'contact').toString()}
+        style={arrow ? {color: '#333'} : {}}
+      >
+        {t('contact')}
+        {arrow && ' →'}
+      </a>
+    </Link>
+  )
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta
-          property="og:image"
-          content={`/images/profile.jpg`}
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+    <>
+      <div className={styles.container}>
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <meta
+            name="description"
+            content="Learn how to build a personal website using Next.js"
+          />
+          <meta
+            property="og:image"
+            content={`/images/profile.jpg`}
+          />
+          <meta name="og:title" content={siteTitle} />
+          <meta name="twitter:card" content="summary_large_image" />
 
-      </Head>
-      <div className={`${styles.topbar} ${utilStyles.dF} ${utilStyles.jCEnd}`}>
-        <LocaleSwitcher></LocaleSwitcher>
-
-        <Link href="/[lang]/contact" as={`/${locale}/contact`}>
-          <a active={(page == 'contact').toString()}>{t('contact')}</a>
-        </Link>
-      </div>
-      <header className={styles.header}>
-        {page == 'home' ? (
-          <>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/[lang]" as={`/${locale}`}>
-              <a>
-                <img
-                  src="/images/profile.jpg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/[lang]" as={`/${locale}`}>
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
-      <main>{children}</main>
-      {page != 'home' && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
+        </Head>
+        <div className={`${styles.topbar} ${utilStyles.dF} ${utilStyles.jCEnd}`}>
+          <LocaleSwitcher></LocaleSwitcher>
+          <ContactLink></ContactLink>
         </div>
-      )}
-
-      <footer className={styles.footer}>
-        <a className={`${utilStyles.textInherit} ${utilStyles.dF} ${utilStyles.jCCenter}`}
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/images/logos/vercel.svg" alt="Vercel Logo" className={styles.footerLogo} />
-        </a>
-      </footer>
-      
+        <header className={styles.header}>
+          {page == 'home' ? (
+            <>
+              <ProfileImage name={name}></ProfileImage>
+              <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            </>
+          ) : (
+            <>
+              <Link href="/[lang]" as={`/${locale}`}>
+                <a>
+                  <ProfileImage name={name} small></ProfileImage>
+                </a>
+              </Link>
+              <h2 className={utilStyles.headingMd}>
+                <Link href="/[lang]" as={`/${locale}`}>
+                  <a className={utilStyles.colorInherit}>{name}</a>
+                </Link>
+              </h2>
+            </>
+          )}
+        </header>
+        <main>{children}</main>
+        {page != 'home' && (
+          <div className={styles.backToHome}>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
+      </div>
+      <Footer
+        name={name}
+        profileImage={<ProfileImage name={name} small></ProfileImage>}
+        contactLink={<ContactLink arrow></ContactLink>}
+      ></Footer>
+        
       <Drift
         appId="dibfryaiextr"
       />
-    </div>
-
+    </>
   )
 }
