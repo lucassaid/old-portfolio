@@ -25,3 +25,14 @@
   padding: 0 1rem;
   margin: 1rem auto 0;
 }
+
+.avatarContainer {
+  margin-right: 15px;
+}
+
+@media(max-width: 50rem) {
+  .avatarContainer {
+    width: 100%;
+    margin-right: 15px;
+  }
+}

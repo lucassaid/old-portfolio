@@ -14,6 +14,8 @@ const INITIAL_INPUTS = {
 
 const ContactForm = ({className}) => {
 
+  const { t } = useTranslation()
+
   const [inputs, setInputs] = useState(INITIAL_INPUTS)
 
   const handleInputChange = ({target}) => {
@@ -75,7 +77,7 @@ const ContactForm = ({className}) => {
       <TextField
         id="name"
         type="text"
-        label="Nombre"
+        label={t('nameLabel')}
         name="name"
         value={inputs.name}
         onChange={handleInputChange}
@@ -95,7 +97,7 @@ const ContactForm = ({className}) => {
       <TextField
         id="message"
         name="message"
-        label="Consulta"
+        label={t('messageLabel')}
         value={inputs.message}
         onChange={handleInputChange}
         rows={3}
@@ -108,11 +110,11 @@ const ContactForm = ({className}) => {
           primary="true"
           disabled={status.submitting}
         >
-          {status.submitting ? 'Enviando' : 'Enviar'}
+          {t(status.submitting ? 'sending' : 'send')}
         </Button>
       </div>
 
-      <input type="hidden" name="_subject" value="Nueva consulta desde electro3.com.ar"></input>
+      <input type="hidden" name="_subject" value="Nueva consulta desde lucassaid.me"></input>
     </form>
   )
 }

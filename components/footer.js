@@ -11,8 +11,8 @@ const Footer = ({profileImage, contactLink, name}) => {
       <div className={`${styles.footerContent} ${utilStyles.sectionBg}`}>
         <div className={styles.container}>
           
-          <div className={`${utilStyles.dF} ${utilStyles.mb20}`}>
-            <div className={utilStyles.mr15}>
+          <div style={{flexWrap: 'wrap'}} className={`${utilStyles.dF} ${utilStyles.mb20}`}>
+            <div className={styles.avatarContainer}>
               {profileImage}
             </div>
             <div>

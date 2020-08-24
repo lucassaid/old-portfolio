@@ -20,9 +20,7 @@ const Home = ({ allPostsData, devTools, portfolio }) => {
       
       <Section>
         <p>{t('quickDesc')}</p>
-        <p>
-          Siempre intento que la lógica defina el código, y me tomo mi tiempo para elegir un buen nombre para una variable. Rápido desarrollo de aplicaciones web desde la idea inicial hasta el resultado final, pasando por el diseño de la experiencia de usuario, base de datos, backend y frontend.
-        </p>
+        <p>{t('desc')}</p>
       </Section>
 
       <Section title={t('workingOn')} bg>

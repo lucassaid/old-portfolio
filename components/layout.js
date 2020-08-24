@@ -17,7 +17,7 @@ const Drift = dynamic(
 )
 
 const name = 'Lucas Said'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Lucas Said portfolio'
 
 export default function Layout({ children, page }) {
   const { locale, t } = useTranslation()
@@ -80,7 +80,7 @@ export default function Layout({ children, page }) {
         {page != 'home' && (
           <div className={styles.backToHome}>
             <Link href="/">
-              <a>← Back to home</a>
+              <a>← {t('backToHome')}</a>
             </Link>
           </div>
         )}
