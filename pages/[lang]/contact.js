@@ -19,10 +19,10 @@ const Contact = () => {
           
           <div className={`${utilStyles.col6} `}>
             <a href="mailto:lucas@lucassaid.me" className={utilStyles.caption}>
-              lucas@lucassaid.me
+              lucas@lucassaid.me →
             </a><br/><br/>
             <a target="_blank" href="https://github.com/lucassaid" className={utilStyles.caption}>
-              github.com/lucassaid
+              github.com/lucassaid →
             </a>
           </div>
         </div>
