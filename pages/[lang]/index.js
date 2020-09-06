@@ -14,7 +14,7 @@ const Home = ({ allPostsData, devTools, portfolio }) => {
   return (
     <Layout page="home">
       <Head>
-        <title>{siteTitle}</title>
+        <title>{siteTitle} - {t('home')}</title>
       </Head>
       
       <Section>

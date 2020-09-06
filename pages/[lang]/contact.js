@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <Layout page="contact">
       <Head>
-        <title>{siteTitle}</title>
+        <title>{siteTitle} - {t('contact')}</title>
       </Head>
 
       <Section title="Contact" bg bgMirror style={{minHeight: '400px'}}>

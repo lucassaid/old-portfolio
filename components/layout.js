@@ -17,7 +17,7 @@ const Drift = dynamic(
 )
 
 const name = 'Lucas Said'
-export const siteTitle = 'Lucas Said portfolio'
+export const siteTitle = 'Lucas Said'
 
 export default function Layout({ children, page }) {
   const { locale, t } = useTranslation()
@@ -41,7 +41,7 @@ export default function Layout({ children, page }) {
           <link rel="icon" href="/favicon.svg" />
           <meta
             name="description"
-            content="Learn how to build a personal website using Next.js"
+            content="My personal web and portfolio"
           />
           <meta
             property="og:image"
