@@ -28,11 +28,19 @@ const Contact = () => {
             <div className={utilStyles.caption}>{t('findMeAtGithub')}</div>
             <a target="_blank" href="https://github.com/lucassaid">
               github.com/lucassaid →
+            </a><br/><br/>
+            <div className={utilStyles.caption}>{t('findMeAtLinkedin')}</div>
+            <a target="_blank" href="https://www.linkedin.com/in/lucassaid/">
+              linkedin.com/in/lucassaid →
             </a>
           </div>
 
           <div className={utilStyles.col6}>
-            <h2 style={{marginTop: 0}} className={utilStyles.headingMd}>Leave me a message</h2>
+            <h2
+              style={{marginTop: 0}}
+              className={utilStyles.headingMd}>
+              {t('leaveMeAMessage')}
+            </h2>
             <ContactForm></ContactForm>
           </div>
         </div>
