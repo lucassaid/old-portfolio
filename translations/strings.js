@@ -22,6 +22,7 @@ export default {
     reactDesc: "I've been getting confident fast with React, and I find it quite addictive.",
     oknubeDesc: "Startup I'm working in. It's a platform where you can make an online store in minutes.",
     flashMeetDesc: "Personal project. It's an app to make video conferences without leaving the browser.",
+    amelieJulietaDesc: "Courses platform for a client. Her students will buy and watch her courses here.",
     otherKnowledgeTitle: 'Other knowledge:',
     otherKnowledge: 
 `Node with Express, REST api's with CRUD functionality
@@ -38,8 +39,9 @@ Experience making illustrations; photo and video editing.
     nameLabel: 'Name',
     messageLabel: 'Message',
     sending: 'Sending',
-    send: 'Send'
-
+    send: 'Send',
+    emailMeTo: 'Say hi anytime',
+    findMeAtGithub: 'Find me at GitHub'
   },
   es: {
     backToHome: 'Ir al incio',
@@ -80,6 +82,8 @@ Experience making illustrations; photo and video editing.
     nameLabel: 'Nombre',
     messageLabel: 'Consulta',
     sending: 'Enviando',
-    send: 'Enviar'
+    send: 'Enviar',
+    emailMeTo: 'Email:',
+    findMeAtGithub: 'Github:'
   }
 }

@@ -98,6 +98,10 @@
   flex-wrap: wrap;
 }
 
+.rowReverse {
+  flex-direction: row-reverse;
+}
+
 .borderBox {
   box-sizing: border-box;
 }
@@ -128,6 +132,10 @@
 
 .mb20 {
   margin-bottom: 2rem;
+}
+
+.mb40 {
+  margin-bottom: 40px;
 }
 
 .cursorPointer {

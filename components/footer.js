@@ -16,8 +16,13 @@ const Footer = ({profileImage, contactLink, name}) => {
               {profileImage}
             </div>
             <div>
-              <h3 className={utilStyles.headingLg} style={{lineHeight: 1}}>{name}</h3>
-              <p style={{lineHeight: 0}}>{t('aboutMeFooter')}</p>
+              <h3
+                className={utilStyles.headingLg}
+                style={{lineHeight: 1, marginBottom: 5}}
+              >
+                {name}
+              </h3>
+              <p style={{margin: 0, marginBottom: 5}}>{t('aboutMeFooter')}</p>
               {contactLink}
             </div>
           </div>

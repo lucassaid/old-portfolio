@@ -1,14 +1,32 @@
 [
   {
     "id": "oknube",
+    "slug": "ok-nube",
     "name": "OkNube",
     "image": "/images/logos/oknube.svg",
-    "link": "https://oksanjuan.com.ar/"
+    "link": {
+      "href": "portfolio/[id]",
+      "as": "portfolio/ok-nube"
+    }
   },
   {
     "id": "flashMeet",
+    "slug": "flash-meet",
     "name": "Flash Meet",
     "image": "/images/logos/flash-meet.svg",
-    "link": "https://flash-meet.com"
+    "link": {
+      "href": "portfolio/[id]",
+      "as": "portfolio/flash-meet"
+    }
+  },
+  {
+    "id": "amelieJulieta",
+    "slug": "amelie-julieta",
+    "name": "Amelie Julieta",
+    "image": "/images/logos/julieta-amelie.png",
+    "link": {
+      "href": "portfolio/[id]",
+      "as": "portfolio/amelie-julieta"
+    }
   }
 ]
