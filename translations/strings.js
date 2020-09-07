@@ -1,8 +1,8 @@
 export default {
   en: {
     backToHome: 'Back to home',
-    quickDesc: "I'm a web developer of Argentina. In the mission of write code that looks good and run fast.",
-    desc: "Always trying to think first, don't repeat myself and deliver good user experiences. Over time I'm getting faster at developing web apps, from the idea to the final result, through design of user experience, databases, backend and frontend.",
+    quickDesc: "I'm a web developer from Argentina, in the mission of writing code that looks good and run fast.",
+    desc: "I allways try to think first, don't repeat myself and deliver good user experiences. Over time I'm getting faster at developing web apps, from the idea to the final result, through design of user experience, databases, backend and frontend.",
     home: 'Home',
     contact: 'Contact',
     seeMore: 'See more',
@@ -43,12 +43,13 @@ Experience making illustrations; photo and video editing.
     emailMeTo: 'Say hi anytime',
     findMeAtGithub: 'Find me at GitHub',
     findMeAtLinkedin: 'Find me at Linkedin',
-    leaveMeAMessage: 'Leave me a message'
+    leaveMeAMessage: 'Leave me a message',
+    messageSent: 'Message sent!'
   },
   es: {
     backToHome: 'Ir al incio',
-    quickDesc: 'Soy un desarrollador web de Argentina, me gusta escribir código tanto como borrarlo.',
-    desc: 'Siempre intento pensar primero, no repetir código, y entregar buena experiencia de usuario. Con el tiempo me hice mas rápido desarrollando aplicaciones web, desde la idea inicial hasta el resultado final, pasando por el diseño de la experiencia de usuario, base de datos, backend y frontend.',
+    quickDesc: 'Soy un desarrollador web de Argentina, en la misión de escribir código que se vea bien y corra rápido.',
+    desc: 'Siempre intento pensar primero, no repetir código, y entregar una buena experiencia de usuario. Con el tiempo me hice rápido desarrollando aplicaciones web, desde la idea inicial hasta el resultado final, pasando por el diseño de la experiencia de usuario, base de datos, backend y frontend.',
     home: 'Inicio',
     contact: 'Contacto',
     seeMore: 'Ver más',
@@ -66,7 +67,7 @@ Experience making illustrations; photo and video editing.
     reduxDesc: 'Normalmente con Reselect, Thunk, y Toolkit.',
     litElementDesc: 'El sucesor de Polymer, una "base class" muy liviana para crear componentes.',
     reactDesc: "Gané confianza rápido con React, y lo encuentro muy adictivo.",
-    oknubeDesc: "Startup en la que trabajo. Es una plataforma donde podés hacer tu tienda online en minutos.",
+    oknubeDesc: "Startup en la que trabajo. Una plataforma donde podés crear tu tienda online en minutos.",
     flashMeetDesc: "Proyecto personal. Es una app de video conferencias sin salir del navegador.",
     amelieJulietaDesc: "Plataforma para una clienta donde sus estudiantes podrán comprar y ver sus cursos.",
     otherKnowledgeTitle: 'Otros conocimientos:',
@@ -89,6 +90,7 @@ Experience making illustrations; photo and video editing.
     emailMeTo: 'Email:',
     findMeAtGithub: 'Github:',
     findMeAtLinkedin: 'Linkedin',
-    leaveMeAMessage: 'Dejame un mensaje'
+    leaveMeAMessage: 'Dejame un mensaje',
+    messageSent: 'Mensaje enviado!'
   }
 }

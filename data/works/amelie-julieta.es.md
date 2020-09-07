@@ -21,7 +21,7 @@ Julieta Amelie vende cursos sobre marketing y redes sociales. Me contactó para 
     <source src="/videos/juli-amelie-landing.mp4" type="video/mp4">
   </video>
 </figure>
-La parte mas aburrida, pasemos a la siguiente 😅
+La parte mas aburrida 💁‍♂️ pasemos a la siguiente
 <br><br><br>
 
 ## Creación y edición de cursos
@@ -39,12 +39,12 @@ Para la sección donde se agrega el contenido de los cursos, quería hacer uso d
   </video>
 </figure>
 
-También consideré necesario reordenar fácilmente las lecciones, así que usé una librería genial llamada [React Beautiful dnd](https://github.com/atlassian/react-beautiful-dnd). Lo único que faltaba era actualizar el estado de Redux cada vez que cambia el orden de una leccion o sección, y actualizar firestore.
+También consideré necesario reordenar fácilmente las lecciones, así que usé una librería genial llamada [React Beautiful dnd](https://github.com/atlassian/react-beautiful-dnd). Lo único que faltaba era actualizar el estado de Redux cada vez que cambia el orden de una lección o sección, y actualizar firestore.
 
 El admin en general es un trabajo en progreso, estoy usando todas las funciones de Next.js para intentar hacer un buen trabajo. Actualmente estoy trabajando en la seguridad.
 <br><br><br>
 
-## Uploading files
+## Subida de archivos
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%; border-radius: 5px;">
     <source src="/videos/juli-amelie-uploads.mp4" type="video/mp4">

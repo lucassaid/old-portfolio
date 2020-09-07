@@ -3,3 +3,11 @@
   margin-bottom: 10px;
   width: auto;
 }
+
+.messageSent {
+  border-radius: 10px;
+  border: 3px dashed rgb(168, 224, 131);
+  padding: 15px 25px;
+  display: flex;
+  width: fit-content;
+}

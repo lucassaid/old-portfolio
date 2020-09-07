@@ -79,7 +79,7 @@ export default function Layout({ children, page }) {
         <main>{children}</main>
         {page != 'home' && (
           <div className={styles.backToHome}>
-            <Link href="/">
+            <Link href="/[lang]/" as={`/${locale}/`} >
               <a>← {t('backToHome')}</a>
             </Link>
           </div>

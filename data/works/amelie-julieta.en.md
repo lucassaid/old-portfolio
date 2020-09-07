@@ -21,7 +21,7 @@ Julieta Amelie sells courses about marketing and social media. She asked me to m
     <source src="/videos/juli-amelie-landing.mp4" type="video/mp4">
   </video>
 </figure>
-Actually the most boring part, lets skip to the next:
+Actually the most boring part 💁‍♂️ lets skip to the next:
 <br><br><br>
 
 ## Course creation and managment
