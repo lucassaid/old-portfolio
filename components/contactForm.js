@@ -63,7 +63,7 @@ const ContactForm = ({className}) => {
       })
   }
 
-  if(!status.submitted) return (
+  if(status.submitted) return (
     <div className={className}>
       {/* <div>
         <img className={styles.okImage} src="/images/coffee-ok.svg"></img>
