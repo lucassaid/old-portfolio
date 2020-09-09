@@ -22,11 +22,6 @@ export const siteTitle = 'Lucas Said'
 
 export default function Layout({ children, page }) {
   const { locale, t } = useTranslation()
-  const [renderedFirstTime, setRenderedFirstTime] = useState(false)
-
-  useEffect(() => {
-    setTimeout(() => setRenderedFirstTime(true), 3000)
-  }, [])
 
   const ContactLink = ({arrow}) => (
     <Link href="/[lang]/contact" as={`/${locale}/contact`}>
@@ -97,7 +92,7 @@ export default function Layout({ children, page }) {
         contactLink={<ContactLink arrow></ContactLink>}
       ></Footer>
 
-      {renderedFirstTime && <><Drift/></>}
+      <Drift/>
     </>
   )
 }
