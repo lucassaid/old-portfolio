@@ -22,6 +22,11 @@ export const siteTitle = 'Lucas Said'
 
 export default function Layout({ children, page }) {
   const { locale, t } = useTranslation()
+  const [rendered, setRendered] = useState(false)
+
+  useEffect(() => {
+    setRendered(true)
+  }, [])
 
   const ContactLink = ({arrow}) => (
     <Link href="/[lang]/contact" as={`/${locale}/contact`}>
@@ -92,7 +97,7 @@ export default function Layout({ children, page }) {
         contactLink={<ContactLink arrow></ContactLink>}
       ></Footer>
 
-      <Drift/>
+      {rendered && <Drift/>}
     </>
   )
 }
