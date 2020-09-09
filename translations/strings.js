@@ -1,8 +1,8 @@
 export default {
   en: {
     backToHome: 'Back to home',
-    quickDesc: "I'm a web developer from Argentina, in the mission of writing code that looks good and run fast.",
-    desc: "I allways try to think first, don't repeat myself and deliver good user experiences. Over time I'm getting faster at developing web apps, from the idea to the final result, through design of user experience, databases, backend and frontend.",
+    quickDesc: "I'm a web developer from Argentina, in the mission of writing code that looks good and runs fast.",
+    desc: "I always try to think first, don't repeat myself and deliver good user experiences. Over time I'm getting faster at developing web apps, from the idea to the final result, through design of user experience, databases, backend and frontend.",
     home: 'Home',
     contact: 'Contact',
     seeMore: 'See more',
@@ -35,7 +35,7 @@ Experience making illustrations; photo and video editing.
     Through trial and error, copy-pasting code and breaking things, I was adding buttons and changing colors, without knowing that thanks to that I found my vocation.
     I work mainly as a frontend. After 12 years of my first contact with CSS, I can say we're friends.
     I'm currently focused on learn new tools and deepen the base concepts of programming.`,
-    aboutMeFooter: "Analytical and self-critical, lover of cats and coffe.",
+    aboutMeFooter: "Analytical and self-critical, lover of cats and coffee.",
     nameLabel: 'Name',
     messageLabel: 'Message',
     sending: 'Sending',
@@ -81,7 +81,7 @@ Experience making illustrations; photo and video editing.
     aboutMe: `A los 13 años empecé a aprender HTML y CSS modificando el código fuente de mi blog (Blogspot en aquel entonces).
     A prueba y error, copiando y pegando código sin entenderlo, fuí agregando botones y cambiando el estilo, sin saber que gracias a eso encontré mi vocación.
     Trabajo mayormente como frontend. Después de 12 años de mi primer contacto con CSS, puedo decir que somos amigos.
-    Actualmente estoy enfocado en aprender nuevas herramientas y profundizar en los coneptos base de la programación.`,
+    Actualmente estoy enfocado en aprender nuevas herramientas y profundizar en los conceptos base de la programación.`,
     aboutMeFooter: 'Analítico y autocrítico, amante de los gatos y el café expreso.',
     nameLabel: 'Nombre',
     messageLabel: 'Consulta',
