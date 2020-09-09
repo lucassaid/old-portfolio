@@ -16,9 +16,9 @@ En este tiempo trabajando en el proyecto aprendí muchísimo y crecí como desar
   </video>
 </figure>
 
-Alunas herramientas usadas: [LitELement](https://lit-element.polymer-project.org/), Redux, Firebase, Node
+Algunas herramientas usadas: [LitELement](https://lit-element.polymer-project.org/), Redux, Firebase, Node
 
-LitElement fue una genial herramienta para hacer este frontend gracias a su fácil uso y su integración con Redux. El uso de Redux con mi amada libería [reselect](https://github.com/reduxjs/reselect) fué un salvavidas porque hizo bastante fácil manejar lógica compleja (como seleccionar opciones de un producto variable) con código legible, performante y mantenible. Como se muestra en el vídeo, el usuario puede elegir el color y el material del producto, y ver los cambios en el precio y el stock. También puede ver qué versión del producto está sin stock.
+LitElement fue una genial herramienta para hacer este frontend gracias a su fácil uso y su integración con Redux. El uso de Redux con mi amada librería [reselect](https://github.com/reduxjs/reselect) fué un salvavidas porque hizo bastante fácil manejar lógica compleja (como seleccionar opciones de un producto variable) con código legible, performante y mantenible. Como se muestra en el vídeo, el usuario puede elegir el color y el material del producto, y ver los cambios en el precio y el stock. También puede ver qué versión del producto está sin stock.
 
 En otros puntos de la app usé [re-reselect](https://github.com/toomuchdesign/re-reselect) para reutilizar la lógica de algunos selectores. También hice algunos trabajos en el backend con Express y Socket.io.
 
@@ -51,10 +51,10 @@ La aplicación puede agregar, actualizar y eliminar las direcciones y las tarjet
   </video>
 </figure>
 
-El admin fue la primera aplicacion que desarrollamos. Está hecho con Polymer 2
+El admin fue la primera aplicación que desarrollamos. Está hecho con Polymer 2
 
-Acá los vendedores personalizan la tienda y configuracion lo necesario para su negocio. Pueden agregar sus productos, ver las últimas órdenes, e interactuar con los clientes chateando con ellos antes y después de la compra.
+Acá los vendedores personalizan la tienda y configuración lo necesario para su negocio. Pueden agregar sus productos, ver las últimas órdenes, e interactuar con los clientes chateando con ellos antes y después de la compra.
 
-En esta aplicacion hice y hago una buena parte del trabajo de frontend que se requiere. A veces también hago APIs en el backend, o intento arreglar alguna para ver de dónde viene ese error 500 😅.
+En esta aplicación hice y hago una buena parte del trabajo de frontend que se requiere. A veces también hago APIs en el backend, o intento arreglar alguna para ver de dónde viene ese error 500 😅.
 
 En este proyecto aprendí tecnologías de backend como Node con Express, Socket.io, Google Pub/Sub, y algunas más.

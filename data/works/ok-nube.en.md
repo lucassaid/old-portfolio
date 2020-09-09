@@ -3,7 +3,7 @@ title: 'My work in OkNube'
 date: '2020-09-04'
 ---
 
-In OkNube we target to make easy for all people to sell over the internet, and also bring the clients to them. Our goal is to set up a "marketplace" in some citys, and let the stores of that city sell and compite.
+In OkNube we target to make it easy for all people to sell over the internet, and also bring the clients to them. Our goal is to set up a "marketplace" in some cities, and let the stores of that city sell and compete.
 
 In this time working on the project I've learned a lot and grew up as a developer. Here I show a little of what we've done and we're doing currently:
 
@@ -18,7 +18,7 @@ In this time working on the project I've learned a lot and grew up as a develope
 
 Some of the tools used: [LitELement](https://lit-element.polymer-project.org/), Redux, Firebase, Node
 
-LitElement was a great tool to make this frontend thanks to its easy use and seamless integration with Redux. The use of redux with the [reselect](https://github.com/reduxjs/reselect) library was a life saver as long as it made kind of easy to manage complex logic (like select options of a variable product) with legible, performant and maintainable code. As shown in the video above, the user can choose the color and the material of the product, and see the changes in the price and stock. He can also see what version of the product is out of stock.
+LitElement was a great tool to make this frontend thanks to its easy use and seamless integration with Redux. The use of redux with the [reselect](https://github.com/reduxjs/reselect) library was a life saver as it made it kind of easy to manage complex logic (like select options of a variable product) with legible, performant and maintainable code. As shown in the video above, the user can choose the color and the material of the product, and see the changes in the price and stock. He can also see what version of the product is out of stock.
 
 In some other points of the app I used [re-reselect](https://github.com/toomuchdesign/re-reselect) to reuse some selectors logic. I've also made some works in the backend with Express and Socket.io.
 
@@ -51,10 +51,10 @@ The app can add, update and remove the user's addresses and credit cards. It con
   </video>
 </figure>
 
-The admin was the first app we start to develop, it is made out of Polymer 2. 
+The admin was the first app we started to develop, it is made out of Polymer 2. 
 
-Here you customize the store and set up the configuration needed for the business. You can add your products, manage orders, and interact with the customers by chating with them before and after the purchase. 
+Here you customize the store and set up the configuration needed for the business. You can add your products, manage orders, and interact with the customers by chatting with them before and after the purchase. 
 
-In this app I make most of the frontend work that is required. Despite it, I sometimes make backend APIs, or try to fix some to see where is that 500 error coming from 😅.
+In this app I make most of the frontend work that is required. Despite it, I sometimes make backend APIs, or try to fix some to see where that 500 error is coming from 😅.
 
 In this project I learned backend things like Node with Express, Socket.io, Google Pub/Sub, and a few more.

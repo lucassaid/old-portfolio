@@ -21,7 +21,7 @@ Julieta Amelie vende cursos sobre marketing y redes sociales. Me contactó para 
     <source src="/videos/juli-amelie-landing.mp4" type="video/mp4">
   </video>
 </figure>
-La parte mas aburrida 💁‍♂️ pasemos a la siguiente
+La parte más aburrida 💁‍♂️ pasemos a la siguiente
 <br><br><br>
 
 ## Creación y edición de cursos

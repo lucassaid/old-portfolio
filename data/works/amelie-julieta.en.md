@@ -21,10 +21,10 @@ Julieta Amelie sells courses about marketing and social media. She asked me to m
     <source src="/videos/juli-amelie-landing.mp4" type="video/mp4">
   </video>
 </figure>
-Actually the most boring part 💁‍♂️ lets skip to the next:
+Actually the most boring part 💁‍♂️ let's skip to the next:
 <br><br><br>
 
-## Course creation and managment
+## Course creation and management
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%; border-radius: 5px;">
     <source src="/videos/juli-amelie-admin.mp4" type="video/mp4">
@@ -39,7 +39,7 @@ For the section where she adds the content of the courses, I wanted to make use 
   </video>
 </figure>
 
-I also found necesary to easily reorder the lessons, so I used a fantastic library called  [React Beautiful dnd](https://github.com/atlassian/react-beautiful-dnd). All left to do was update the Redux state every time the order of a lesson or section changes, and update the firestore database.
+I also found necessary to easily reorder the lessons, so I used a fantastic library called  [React Beautiful dnd](https://github.com/atlassian/react-beautiful-dnd). All left to do was update the Redux state every time the order of a lesson or section changes, and update the firestore database.
 
 The admin in general is a work in progress, I'm using all the Next.js features to try to make a good work. I'm currently working on security.
 <br><br><br>
@@ -50,6 +50,6 @@ The admin in general is a work in progress, I'm using all the Next.js features t
     <source src="/videos/juli-amelie-uploads.mp4" type="video/mp4">
   </video>
 </figure>
-The files that are going to be uploaded to the platform are probably heavy, so I though it was a good idea to keep the state out of the components.
+The files that are going to be uploaded to the platform are probably heavy, so I thought it was a good idea to keep the state out of the components.
 
-Using Redux Toolkit I was able to mantain the uploads state all over the app, so if you want to go to another page, the files will be still being uploaded. You can see the progress in the right drawer, as shown in the video.
+Using Redux Toolkit I was able to manitain the upload state all over the app, so if you want to go to another page, the files will still be uploaded. You can see the progress in the right drawer, as shown in the video.

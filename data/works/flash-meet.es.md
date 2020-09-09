@@ -3,9 +3,9 @@ title: 'Proyecto personal: Flash Meet'
 date: '2020-09-06'
 ---
 
-La motivación para este proyecto fue hacer una aplicación de video conferencias fácil de usar. Mi objetivo es usar todas las ventajas de la web moderna para que nadie tenga que descargar nada. Solo la web.
+La motivación para este proyecto fue hacer una aplicación de videoconferencias fácil de usar. Mi objetivo es usar todas las ventajas de la web moderna para que nadie tenga que descargar nada. Solo la web.
 
-Hay algunas otras aplicaciones que logran esto si el usuario entra con una computadora, pero no encontré una que funcione en dispositivos moviles sin tener que instalar una app. Igualmente, nada como aprender sufriendo, y hacer todo por mí mismo.
+Hay algunas otras aplicaciones que logran esto si el usuario entra con una computadora, pero no encontré una que funcione en dispositivos móviles sin tener que instalar una app. Igualmente, nada como aprender sufriendo, y hacer todo por mí mismo.
 
 Acá muestro algunas de las características que quise agregar y cómo lo hice
 
@@ -22,7 +22,7 @@ Mi idea innegociable era "Quiero que el usuario cree una sala de chat apenas ent
 
 <br>
 
-## Videollamads con WebRTC
+## Videollamadas con WebRTC
 <div style="display: flex; align-items:center;">
   <img src="/images/logos/webrtc.svg" style="width: 100px">
   <div style="margin: 0 20px; font-size: 2.5rem;">+</div>
@@ -42,10 +42,10 @@ Este probablemente es el gran desafío de la aplicación. [WebRTC](https://webrt
 
 Mientras el servidor multimedia procesa las llamadas, Tuve que hacer un servidor propio para manejar la seguridad, los roles de usuarios, las acciones, etc. Lo hice con Node.js. Cada acción que un usuario quiere realizar, es verificada y autorizada en el servidor. También actualiza la base de datos (firestore) con la información de la sala, los usuarios y la configuración.
 
-Toda la conección con el frontend es a través de Socket.io, haciendo facil escuchar cambios y actualizar el estado en consecuencia.
+Toda la conexión con el frontend es a través de Socket.io, haciendo facil escuchar cambios y actualizar el estado en consecuencia.
 
 <br>
 
-## Mas cosas por venir
+## Más cosas por venir
 
 Estoy trabajando en hacer la aplicación más estable y compatible, y en agregar características como encuestas, pantalla compartida y compartición de archivos.

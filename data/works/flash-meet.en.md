@@ -3,9 +3,9 @@ title: 'Personal project: Flash Meet'
 date: '2020-09-05'
 ---
 
-The motivation for this project was to make a easy to use video conference web app. My goal is to use all the adventages of the modern web to make that no one has to download anything. Just the Web.
+The motivation for this project was to make an easy to use video conference web app. My goal is to use all the advantages of the modern web to achieve that no one has to download anything. Just the Web.
 
-There are a few others apps that acheive this if the user enter with a computer, but I couldn't find one that works on mobile without having to install an app. Anyways, nothing like struggle with the challenges, learn by suffering, and make it all by myself.
+There are a few other apps that achieve this if the user enters with a computer, but I couldn't find one that works on mobile without having to install an app. Anyways, nothing like struggle with the challenges, learn by suffering, and make it all by myself.
 
 Here I show some of the features I wanted to add and how I did it:
 
@@ -18,7 +18,7 @@ Here I show some of the features I wanted to add and how I did it:
   </video>
 </figure>
 
-My non-negotiable idea was "I want the user to create a room chat as soon as he enters, no login required". The solution was anonymously authenticate the user with Firebase. For all the actions he wants to perform, his firebase token is checked in the server to verify that he is who he says he is.
+My non-negotiable idea was "I want the user to create a room chat as soon as he enters, no login required". The solution was to anonymously authenticate the user with Firebase. For all the actions he wants to perform, his firebase token is checked in the server to verify that he is who he says he is.
 
 <br>
 
@@ -29,7 +29,7 @@ My non-negotiable idea was "I want the user to create a room chat as soon as he 
   <img src="/images/logos/openvidu.png" style="width: 160px">
 </div> 
 
-This is probably the great challenge of the app. [WebRTC](https://webrtc.org/) is a proyect to provide web browsers real time comunication. I didn't have the time to learn all about the framework, so I used a fantastic "wrapper" called [OpenVidu](https://openvidu.io/). Thanks to it I was able to make the app without the complications of using WebRTC on its own. OpenVidu also helps you to set up a media server where all the calls traffic is going to be processed.
+This is probably the great challenge of the app. [WebRTC](https://webrtc.org/) is a project to provide web browsers real time communication. I didn't have the time to learn all about the framework, so I used a fantastic "wrapper" called [OpenVidu](https://openvidu.io/). Thanks to it I was able to make the app without the complications of using WebRTC on its own. OpenVidu also helps you to set up a media server where all the calls traffic is going to be processed.
 
 <br>
 
