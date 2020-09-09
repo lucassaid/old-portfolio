@@ -25,7 +25,7 @@ export default function Layout({ children, page }) {
   const [rendered, setRendered] = useState(false)
 
   useEffect(() => {
-    setTimeout(() => setRendered(true), 0)
+    setTimeout(() => setRendered(true), 2000)
   }, [])
 
   const ContactLink = ({arrow}) => (
