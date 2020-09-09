@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react' 
 import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -9,7 +10,7 @@ import Footer from './footer'
 import ProfileImage from './profileImage'
 
 const Drift = dynamic(
-  () => import('react-driftjs'), 
+  () => import('./driftWidget'), 
   {
     ssr: false,
     loading: () => <div>Cargando</div>
@@ -21,6 +22,11 @@ export const siteTitle = 'Lucas Said'
 
 export default function Layout({ children, page }) {
   const { locale, t } = useTranslation()
+  const [renderedFirstTime, setRenderedFirstTime] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => setRenderedFirstTime(true), 1000)
+  }, [])
 
   const ContactLink = ({arrow}) => (
     <Link href="/[lang]/contact" as={`/${locale}/contact`}>
@@ -90,10 +96,8 @@ export default function Layout({ children, page }) {
         profileImage={<ProfileImage name={name} small></ProfileImage>}
         contactLink={<ContactLink arrow></ContactLink>}
       ></Footer>
-        
-      <Drift
-        appId="dibfryaiextr"
-      />
+
+      {renderedFirstTime && <><Drift/></>}
     </>
   )
 }
