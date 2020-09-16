@@ -40,7 +40,6 @@ Para la sección donde se agrega el contenido de los cursos, quería hacer uso d
 </figure>
 
 También consideré necesario reordenar fácilmente las lecciones, así que usé una librería genial llamada [React Beautiful dnd](https://github.com/atlassian/react-beautiful-dnd). Lo único que faltaba era actualizar el estado de Redux cada vez que cambia el orden de una lección o sección, y actualizar firestore.
-
 <br><br><br>
 
 ## Manejo del estado con React Toolkit
@@ -54,6 +53,7 @@ Los archivos que se van a subir probablemente sean pesados, así que pensé que 
 Con Redux Toolkit fui capaz de mantener el estado de la subida de archivos en toda la app, de forma que si te vas a cualquier otra página del admin, los archivos van a seguir subiéndose, y el estado seguirá actualizado. Como se muestra en el video, se puede ver el progreso en una barra lateral.
 
 Solo uso Redux para esta pequeña parte de la aplicación. Creo que en lo posible, es mejor usar estado local.
+<br><br><br>
 
 ## Seguridad con Firebase + SWR
 [SWR](https://github.com/vercel/swr) es una nueva y flamante librería de los creadores de [Vercel](https://vercel.com), y la usan para su propia autenticación. Me pareció un [buen enfoque](https://github.com/vercel/next.js/discussions/10724#discussioncomment-726), así que quise implementarlo.

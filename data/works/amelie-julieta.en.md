@@ -40,7 +40,6 @@ For the section where she adds the content of the courses, I wanted to make use 
 </figure>
 
 I also it found necessary to easily reorder the lessons, so I used a fantastic library called  [React Beautiful dnd](https://github.com/atlassian/react-beautiful-dnd). All left to do was update the Redux state every time the order of a lesson or section changes, and update the firestore database.
-
 <br><br><br>
 
 ## State management with React Toolkit
@@ -54,6 +53,7 @@ The files that are going to be uploaded to the platform are probably heavy, so I
 Using Redux Toolkit I was able to maintain the upload state all over the app, so if you want to go to another page, the files will still be uploaded. You can see the progress in the right drawer, as shown in the video.
 
 I only use Redux for this part of the app. I think is better to use local state when possible.
+<br><br><br>
 
 ## Security with Firebase + SWR
 [SWR](https://github.com/vercel/swr) is a brand new library from [Vercel](https://vercel.com) creators, and they use it for their authentication system. I wanted to implement it since it looked like a [good approach](https://github.com/vercel/next.js/discussions/10724#discussioncomment-726).
