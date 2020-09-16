@@ -25,6 +25,7 @@ export default function Layout({ children, page }) {
   const [rendered, setRendered] = useState(false)
 
   useEffect(() => {
+    // this adds 40 points in pageSpeed insights
     setTimeout(() => setRendered(true), 2000)
   }, [])
 

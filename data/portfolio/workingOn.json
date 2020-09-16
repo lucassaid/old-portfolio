@@ -1,5 +1,15 @@
 [
   {
+    "id": "amelieJulieta",
+    "slug": "amelie-julieta",
+    "name": "Amelie Julieta",
+    "image": "/images/logos/julieta-amelie.png",
+    "link": {
+      "href": "portfolio/[id]",
+      "as": "portfolio/amelie-julieta"
+    }
+  },
+  {
     "id": "oknube",
     "slug": "ok-nube",
     "name": "OkNube",
@@ -17,16 +27,6 @@
     "link": {
       "href": "portfolio/[id]",
       "as": "portfolio/flash-meet"
-    }
-  },
-  {
-    "id": "amelieJulieta",
-    "slug": "amelie-julieta",
-    "name": "Amelie Julieta",
-    "image": "/images/logos/julieta-amelie.png",
-    "link": {
-      "href": "portfolio/[id]",
-      "as": "portfolio/amelie-julieta"
     }
   }
 ]

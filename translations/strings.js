@@ -69,7 +69,7 @@ Experience making illustrations; photo and video editing.
     reactDesc: "Gané confianza rápido con React, y lo encuentro muy adictivo.",
     oknubeDesc: "Startup en la que trabajo. Una plataforma donde podés crear tu tienda online en minutos.",
     flashMeetDesc: "Proyecto personal. Es una app de video conferencias sin salir del navegador.",
-    amelieJulietaDesc: "Plataforma para una clienta donde sus estudiantes podrán comprar y ver sus cursos.",
+    amelieJulietaDesc: "Plataforma de cursos online. Lugar donde los estudiantes podrán comprar y ver cursos.",
     otherKnowledgeTitle: 'Otros conocimientos:',
     otherKnowledge: 
 `Node with Express, REST api's with CRUD functionality
