@@ -9,7 +9,7 @@ En este tiempo trabajando en el proyecto aprendí muchísimo y crecí como desar
 
 <br>
 
-## Tienda
+## Tienda Online
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%">
     <source src="/videos/ok-nube-store.mp4" type="video/mp4">
@@ -24,7 +24,7 @@ En otros puntos de la app usé [re-reselect](https://github.com/toomuchdesign/re
 
 <br>
 
-## Payments app
+## Aplicación de Pagos
 
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%">
@@ -43,7 +43,7 @@ La aplicación puede agregar, actualizar y eliminar las direcciones y las tarjet
 
 <br>
 
-## Admin app
+## Administrador
 
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%">

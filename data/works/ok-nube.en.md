@@ -9,7 +9,7 @@ In this time working on the project I've learned a lot and grew up as a develope
 
 <br>
 
-## Store app
+## Online Store
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%">
     <source src="/videos/ok-nube-store.mp4" type="video/mp4">
@@ -24,7 +24,7 @@ In some other points of the app I used [re-reselect](https://github.com/toomuchd
 
 <br>
 
-## Payments app
+## Payments App
 
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%">
@@ -43,7 +43,7 @@ The app can add, update and remove the user's addresses and credit cards. It con
 
 <br>
 
-## Admin app
+## Admin Panel
 
 <figure class="video_container" style="width: 100%; max-width: 550px; margin: 20px 0;">
   <video muted="true" autoplay="true" loop style="width: 100%">
