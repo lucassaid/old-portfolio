@@ -61,7 +61,11 @@ export default function Layout({ children, page }) {
         <div className={`${styles.topbar} ${utilStyles.dF} ${utilStyles.jCEnd}`}>
           <LocaleSwitcher></LocaleSwitcher>
           <ContactLink></ContactLink>
-          <a href="https://github.com/lucassaid" target="_blank">
+          <a
+            href="https://github.com/lucassaid"
+            target="_blank"
+            className={utilStyles.dF}
+          >
             <img
               className={styles.githubIcon}
               src="/images/logos/github.svg"
