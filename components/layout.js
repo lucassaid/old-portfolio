@@ -61,6 +61,12 @@ export default function Layout({ children, page }) {
         <div className={`${styles.topbar} ${utilStyles.dF} ${utilStyles.jCEnd}`}>
           <LocaleSwitcher></LocaleSwitcher>
           <ContactLink></ContactLink>
+          <a href="https://github.com/lucassaid" target="_blank">
+            <img
+              className={styles.githubIcon}
+              src="/images/logos/github.svg"
+            />
+          </a>
         </div>
         <header className={styles.header}>
           {page == 'home' ? (
